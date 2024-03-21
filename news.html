@@ -337,5 +337,19 @@ https://www.tooplate.com/view/2129-crispy-kitchen
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/custom.js"></script>
 
+        <script type="module">
+          import {onCLS, onFID, onLCP} from 'https://unpkg.com/web-vitals@3?module';
+          
+          function sendToAnalytics(metric) {
+            const body = JSON.stringify(metric);
+            fetch('https://httpbin.org/status/200', {body, method: 'POST', keepalive: true});
+          }
+
+          onCLS(sendToAnalytics);
+          onFID(sendToAnalytics);
+          onLCP(sendToAnalytics);
+        </script>
+
+
     </body>
 </html>
