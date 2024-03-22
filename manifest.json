@@ -1,13 +1,13 @@
 {
   "name": "Webperf-practice-2",
   "short_name": "webperf-2",
-  "start_url": ".",
+  "start_url": "https://localhost:5173",
   "display": "standalone",
   "background_color": "#fff",
   "description": "Practice exercise for webperformance class at Harbour.Space.",
   "icons": [
     {
-      "src": "images/favicon.ico",
+      "src": "favicon.ico",
       "sizes": "128x128"
     }
   ],
