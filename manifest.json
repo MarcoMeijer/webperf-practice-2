@@ -9,6 +9,10 @@
     {
       "src": "favicon.ico",
       "sizes": "128x128"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512"
     }
   ],
   "manifest_version": 2
