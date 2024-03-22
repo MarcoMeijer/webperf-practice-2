@@ -105,3 +105,6 @@ dist
 
 # Lighthouse report
 report.html
+
+# Ssl
+.devServer

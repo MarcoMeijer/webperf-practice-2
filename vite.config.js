@@ -1,7 +1,15 @@
 import { defineConfig } from "vite";
 import { resolve } from 'path';
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 export default defineConfig({
+  plugins: [
+    basicSsl({
+      name: 'localEnvironment',
+      domains: ['*.custom.com'],
+      certDir: './.devServer/cert'
+    })
+  ],
   build: {
     rollupOptions: {
       input: {
