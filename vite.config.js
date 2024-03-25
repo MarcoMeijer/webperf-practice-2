@@ -19,7 +19,7 @@ export default defineConfig({
         bootstrap: resolve(__dirname, "js/bootstrap.bundle.min.js"),
         custom: resolve(__dirname, "js/custom.js"),
         jquery: resolve(__dirname, "js/jquery.min.js"),
-        serverworker: resolve(__dirname, "js/server-worker.js"),
+        serverworker: resolve(__dirname, "js/service-worker.js"),
         main: resolve(__dirname, "index.html"),
         about: resolve(__dirname, "about.html"),
         contact: resolve(__dirname, "contact.html"),
