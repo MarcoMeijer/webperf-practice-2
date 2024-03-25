@@ -6,3 +6,15 @@ Changes made:
 3. Added web vitals
 4. Added lighthouse to build step
 5. Added bundle analyzer `npx vite-bundle-visualizer`
+
+
+Run for production:
+```
+npm run build
+npm run prod
+```
+
+Stop production:
+```
+npm run prodstop
+```
