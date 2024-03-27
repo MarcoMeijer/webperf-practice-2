@@ -1,8 +1,10 @@
 
 Changes made:
 
-1. Convert jpg to webp
-2. Added bundler for css, js and html
-3. Added web vitals
-4. Added lighthouse to build step
-5. Added bundle analyzer `npx vite-bundle-visualizer`
+1. Add .tsx files for individual pages
+2. Use <Image> tags instead of img in index.tsx page
+3. Turned <a> tags into <Link> tags
+4. Added /api/reserve API endpoint
+5. Opening modal using react state instead of bootstrap (Only on home page)
+6. Added deployment to Vercel
+
