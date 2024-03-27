@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from 'next/link'
+import { useState } from "react";
 
 export default function Home() {
+  const [modalShown, setModalShown] = useState(false);
+
   return (
     <main>
       <nav className="navbar navbar-expand-lg bg-white shadow-lg">
@@ -15,7 +18,7 @@ export default function Home() {
           </Link>
 
           <div className="d-lg-none">
-            <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+            <button type="button" className="custom-btn btn btn-danger" onClick={() => { setModalShown(true); console.log("test") }}>Reservation</button>
           </div>
 
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -43,7 +46,7 @@ export default function Home() {
           </div>
 
           <div className="d-none d-lg-block">
-            <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+            <button type="button" className="custom-btn btn btn-danger" onClick={() => { setModalShown(true); console.log("test") }}>Reservation</button>
           </div>
 
         </div>
@@ -521,13 +524,13 @@ export default function Home() {
 
       </footer>
 
-      <div className="modal fade" id="BookingModal" tabIndex={-1} aria-labelledby="BookingModal" aria-hidden="true">
+      <div className={`my-modal ${modalShown ? "show" : ""}`} id="BookingModal" tabIndex={-1} aria-labelledby="BookingModal" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered modal-xl">
           <div className="modal-content">
             <div className="modal-header">
               <h3 className="mb-0">Reserve a table</h3>
 
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" className="btn-close" aria-label="Close" onClick={() => setModalShown(false)}></button>
             </div>
 
             <div className="modal-body d-flex flex-column justify-content-center">

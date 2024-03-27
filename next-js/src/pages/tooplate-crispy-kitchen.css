@@ -875,3 +875,20 @@ strong {
     height: 50px;
   }
 }
+
+.my-modal {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  z-index: 20;
+  background-color: #00000077;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.my-modal.show {
+  display: flex;
+}
