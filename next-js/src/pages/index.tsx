@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" href="/">
             Crispy Kitchen
-          </a>
+          </Link>
 
           <div className="d-lg-none">
             <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
@@ -20,23 +21,23 @@ export default function Home() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="index.html">Home</a>
+                <Link className="nav-link active" href="/">Home</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">Story</a>
+                <Link className="nav-link" href="about">Story</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="menu.html">Menu</a>
+                <Link className="nav-link" href="menu">Menu</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="news.html">Our Updates</a>
+                <Link className="nav-link" href="news">Our Updates</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">Contact</a>
+                <Link className="nav-link" href="contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -379,15 +380,15 @@ export default function Home() {
 
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="news-thumb mb-4">
-                  <a href="news-detail.html">
+                  <Link href="news-detail">
                     <Image src="/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
-                  </a>
+                  </Link>
 
                   <div className="news-text-info news-text-info-large">
                     <span className="category-tag bg-danger">Featured</span>
 
                     <h5 className="news-title mt-2">
-                      <a href="news-detail.html" className="news-title-link">Healthy Lifestyle and happy living tips</a>
+                      <Link href="news-detail" className="news-title-link">Healthy Lifestyle and happy living tips</Link>
                     </h5>
                   </div>
                 </div>
@@ -395,15 +396,15 @@ export default function Home() {
 
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="news-thumb mb-4">
-                  <a href="news-detail.html">
+                  <Link href="news-detail">
                     <Image src="/images/news/stefan-johnson-xIFbDeGcy44-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
-                  </a>
+                  </Link>
 
                   <div className="news-text-info news-text-info-large">
                     <span className="category-tag bg-danger">Featured</span>
 
                     <h5 className="news-title mt-2">
-                      <a href="news-detail.html" className="news-title-link">How to make a healthy meal</a>
+                      <Link href="news-detail" className="news-title-link">How to make a healthy meal</Link>
                     </h5>
                   </div>
                 </div>
@@ -411,9 +412,9 @@ export default function Home() {
 
               <div className="col-lg-4 col-md-4 col-12">
                 <div className="news-thumb mb-lg-0 mb-lg-4 mb-0">
-                  <a href="news-detail.html">
+                  <Link href="news-detail">
                     <Image src="/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
-                  </a>
+                  </Link>
 
                   <div className="news-text-info">
                     <span className="category-tag me-3 bg-info">Promotions</span>
@@ -421,7 +422,7 @@ export default function Home() {
                     <strong>8 April 2022</strong>
 
                     <h5 className="news-title mt-2">
-                      <a href="news-detail.html" className="news-title-link">Is Coconut good for you?</a>
+                      <Link href="news-detail" className="news-title-link">Is Coconut good for you?</Link>
                     </h5>
                   </div>
                 </div>
@@ -429,15 +430,15 @@ export default function Home() {
 
               <div className="col-lg-4 col-md-4 col-12">
                 <div className="news-thumb mb-lg-0 mb-lg-4 mb-2">
-                  <a href="news-detail.html">
+                  <Link href="news-detail">
                     <Image src="/images/news/caroline-attwood-bpPTlXWTOvg-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
-                  </a>
+                  </Link>
 
                   <div className="news-text-info">
                     <span className="category-tag">News</span>
 
                     <h5 className="news-title mt-2">
-                      <a href="news-detail.html" className="news-title-link">Salmon Steak Noodle</a>
+                      <Link href="news-detail" className="news-title-link">Salmon Steak Noodle</Link>
                     </h5>
                   </div>
                 </div>
@@ -445,9 +446,9 @@ export default function Home() {
 
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="news-thumb mb-4">
-                  <a href="news-detail.html">
+                  <Link href="news-detail">
                     <Image src="/images/news/louis-hansel-GiIiRV0FjwU-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
-                  </a>
+                  </Link>
 
                   <div className="news-text-info">
                     <span className="category-tag me-3 bg-info">Meeting</span>
@@ -455,7 +456,7 @@ export default function Home() {
                     <strong>30 April 2022</strong>
 
                     <h5 className="news-title mt-2">
-                      <a href="news-detail.html" className="news-title-link">Making a healthy salad</a>
+                      <Link href="news-detail" className="news-title-link">Making a healthy salad</Link>
                     </h5>
                   </div>
                 </div>
@@ -482,7 +483,7 @@ export default function Home() {
 
               <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
 
-              <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
+              <Link href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</Link>
             </div>
 
             <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
@@ -503,8 +504,8 @@ export default function Home() {
 
                 <li><a href="#" className="social-icon-link bi-instagram"></a></li>
 
-                <li><a href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
-                  className="social-icon-link bi-twitter"></a></li>
+                <li><Link href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
+                  className="social-icon-link bi-twitter"></Link></li>
 
                 <li><a href="#" className="social-icon-link bi-youtube"></a></li>
               </ul>

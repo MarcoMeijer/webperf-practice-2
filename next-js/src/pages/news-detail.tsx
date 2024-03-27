@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function NewsDetail() {
   return (<main>
@@ -7,9 +8,9 @@ export default function NewsDetail() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand" href="index.html">
+        <Link className="navbar-brand" href="/">
           Crispy Kitchen
-        </a>
+        </Link>
 
         <div className="d-lg-none">
           <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
@@ -18,23 +19,23 @@ export default function NewsDetail() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" href="index.html">Home</a>
+              <Link className="nav-link" href="/">Home</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="about.html">Story</a>
+              <Link className="nav-link" href="about">Story</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="menu.html">Menu</a>
+              <Link className="nav-link" href="menu">Menu</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="news.html">Our Updates</a>
+              <Link className="nav-link" href="news">Our Updates</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">Contact</a>
+              <Link className="nav-link" href="contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -87,7 +88,7 @@ export default function NewsDetail() {
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/6vebbDZxoKE?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
 
-                <p>Crispy Kitchen is free Bootstrap 5 HTML template provided by Tooplate. You are free to use this layout for commercial purposes. You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <a href="https://www.tooplate.com/contact" target="_blank">contact us</a> for more information.</p>
+                <p>Crispy Kitchen is free Bootstrap 5 HTML template provided by Tooplate. You are free to use this layout for commercial purposes. You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <Link href="https://www.tooplate.com/contact" target="_blank">contact us</Link> for more information.</p>
 
                 <h5 className="mt-4 mb-3">Pasta with Cream Sauce Recipe</h5>
 
@@ -127,7 +128,7 @@ export default function NewsDetail() {
                 <div className="ms-4 w-50">
                   <p className="mb-2">Donec pharetra tellus nulla, aliquam elementum lorem hendrerit non.</p>
 
-                  <a href="#">David Martin</a>
+                  <Link href="#">David Martin</Link>
                 </div>
 
                 <span className="ms-auto">14 hours ago</span>
@@ -139,7 +140,7 @@ export default function NewsDetail() {
                 <div className="ms-4 w-50">
                   <p className="mb-2">Quisque non libero ut mauris fermentum efficitur ac ut nibh.</p>
 
-                  <a href="#">Jessica Noel</a>
+                  <Link href="#">Jessica Noel</Link>
                 </div>
 
                 <span className="ms-auto">3 days ago</span>
@@ -158,9 +159,9 @@ export default function NewsDetail() {
 
             <div className="col-lg-4 col-md-6 col-12">
               <div className="news-thumb mb-4">
-                <a href="news-detail.html">
+                <Link href="news-detail">
                   <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.webp" className="img-fluid news-image" alt="" />
-                </a>
+                </Link>
 
                 <div className="news-text-info">
                   <span className="category-tag me-3 bg-info">Promotions</span>
@@ -168,7 +169,7 @@ export default function NewsDetail() {
                   <strong>12 April 2022</strong>
 
                   <h5 className="news-title mt-2">
-                    <a href="news-detail.html" className="news-title-link">Is Coconut good for your health?</a>
+                    <Link href="news-detail" className="news-title-link">Is Coconut good for your health?</Link>
                   </h5>
                 </div>
               </div>
@@ -176,9 +177,9 @@ export default function NewsDetail() {
 
             <div className="col-lg-4 col-md-6 col-12">
               <div className="news-thumb mb-4">
-                <a href="news-detail.html">
+                <Link href="news-detail">
                   <img src="images/news/ella-olsson-mmnKI8kMxpc-unsplash.webp" className="img-fluid news-image" alt="" />
-                </a>
+                </Link>
 
                 <div className="news-text-info">
                   <span className="category-tag me-3 bg-info">Career</span>
@@ -186,7 +187,7 @@ export default function NewsDetail() {
                   <strong>18 April 2022</strong>
 
                   <h5 className="news-title mt-2">
-                    <a href="news-detail.html" className="news-title-link">How to run a sushi business?</a>
+                    <Link href="news-detail" className="news-title-link">How to run a sushi business?</Link>
                   </h5>
                 </div>
               </div>
@@ -194,9 +195,9 @@ export default function NewsDetail() {
 
             <div className="col-lg-4 col-md-6 col-12">
               <div className="news-thumb mb-4">
-                <a href="news-detail.html">
+                <Link href="news-detail">
                   <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.webp" className="img-fluid news-image" alt="" />
-                </a>
+                </Link>
 
                 <div className="news-text-info">
                   <span className="category-tag me-3 bg-info">Meeting</span>
@@ -204,7 +205,7 @@ export default function NewsDetail() {
                   <strong>30 April 2022</strong>
 
                   <h5 className="news-title mt-2">
-                    <a href="news-detail.html" className="news-title-link">Learning a fine dining experience</a>
+                    <Link href="news-detail" className="news-title-link">Learning a fine dining experience</Link>
                   </h5>
                 </div>
               </div>
@@ -259,7 +260,7 @@ export default function NewsDetail() {
 
             <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
 
-            <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
+            <Link href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</Link>
           </div>
 
           <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
@@ -269,24 +270,24 @@ export default function NewsDetail() {
 
             <p>10:00 AM - 08:00 PM</p>
 
-            <p>Tel: <a href="tel: 010-02-0340" className="tel-link">010-02-0340</a></p>
+            <p>Tel: <Link href="tel: 010-02-0340" className="tel-link">010-02-0340</Link></p>
           </div>
 
           <div className="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
             <h6 className="text-white mb-lg-4 mb-3">Social</h6>
 
             <ul className="social-icon">
-              <li><a href="#" className="social-icon-link bi-facebook"></a></li>
+              <li><Link href="#" className="social-icon-link bi-facebook"></Link></li>
 
-              <li><a href="#" className="social-icon-link bi-instagram"></a></li>
+              <li><Link href="#" className="social-icon-link bi-instagram"></Link></li>
 
-              <li><a href="#" className="social-icon-link bi-twitter"></a></li>
+              <li><Link href="#" className="social-icon-link bi-twitter"></Link></li>
 
-              <li><a href="#" className="social-icon-link bi-youtube"></a></li>
+              <li><Link href="#" className="social-icon-link bi-youtube"></Link></li>
             </ul>
 
             <p className="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
-              <br />Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+              <br />Design: <Link rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</Link></p>
 
           </div>
 

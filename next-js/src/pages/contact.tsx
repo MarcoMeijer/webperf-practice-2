@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -9,9 +10,9 @@ export default function Contact() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" href="/">
             Crispy Kitchen
-          </a>
+          </Link>
 
           <div className="d-lg-none">
             <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
@@ -20,23 +21,23 @@ export default function Contact() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link" href="index.html">Home</a>
+                <Link className="nav-link" href="/">Home</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">Story</a>
+                <Link className="nav-link" href="about">Story</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="menu.html">Menu</a>
+                <Link className="nav-link" href="menu">Menu</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="news.html">Our Updates</a>
+                <Link className="nav-link" href="news">Our Updates</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link active" href="contact.html">Contact</a>
+                <Link className="nav-link active" href="contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -152,7 +153,7 @@ export default function Contact() {
 
               <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
 
-              <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
+              <Link href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</Link>
             </div>
 
             <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
@@ -162,25 +163,25 @@ export default function Contact() {
 
               <p>10:00 AM - 08:00 PM</p>
 
-              <p>Tel: <a href="tel: 010-02-0340" className="tel-link">010-02-0340</a></p>
+              <p>Tel: <Link href="tel: 010-02-0340" className="tel-link">010-02-0340</Link></p>
             </div>
 
             <div className="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
               <h6 className="text-white mb-lg-4 mb-3">Social</h6>
 
               <ul className="social-icon">
-                <li><a href="#" className="social-icon-link bi-facebook"></a></li>
+                <li><Link href="#" className="social-icon-link bi-facebook"></Link></li>
 
-                <li><a href="#" className="social-icon-link bi-instagram"></a></li>
+                <li><Link href="#" className="social-icon-link bi-instagram"></Link></li>
 
-                <li><a href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
-                  className="social-icon-link bi-twitter"></a></li>
+                <li><Link href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
+                  className="social-icon-link bi-twitter"></Link></li>
 
-                <li><a href="#" className="social-icon-link bi-youtube"></a></li>
+                <li><Link href="#" className="social-icon-link bi-youtube"></Link></li>
               </ul>
 
               <p className="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
-                <br />Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                <br />Design: <Link rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</Link></p>
 
             </div>
 
