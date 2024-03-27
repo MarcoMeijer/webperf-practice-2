@@ -536,7 +536,7 @@ export default function Home() {
             <div className="modal-body d-flex flex-column justify-content-center">
               <div className="booking">
 
-                <form className="booking-form row" role="form" action="#" method="post">
+                <form className="booking-form row" role="form" action="/api/reserve" method="post">
                   <div className="col-lg-6 col-12">
                     <label htmlFor="name" className="form-label">Full Name</label>
 
