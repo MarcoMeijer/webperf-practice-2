@@ -6,5 +6,5 @@ Changes made:
 3. Turned <a> tags into <Link> tags
 4. Added /api/reserve API endpoint
 5. Opening modal using react state instead of bootstrap (Only on home page)
-6. Added deployment to Vercel
+6. Added deployment to Vercel: https://webperf-practice-2-k94zhxgyj-marcomeijers-projects.vercel.app/
 
