@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -81,7 +82,7 @@ export default function Home() {
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <div className="carousel-image-wrap">
-                        <img src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.webp" className="img-fluid carousel-image" alt="" />
+                        <Image src="/images/slide/jay-wennington-N_Y88TWmGwA-unsplash.webp" className="img-fluid carousel-image" alt="" width={1168} height={778} />
                       </div>
 
                       <div className="carousel-caption">
@@ -96,7 +97,7 @@ export default function Home() {
 
                     <div className="carousel-item">
                       <div className="carousel-image-wrap">
-                        <img src="images/slide/jason-leung-O67LZfeyYBk-unsplash.webp" className="img-fluid carousel-image" alt="" />
+                        <Image src="/images/slide/jason-leung-O67LZfeyYBk-unsplash.webp" className="img-fluid carousel-image" alt="" width={1168} height={778} />
                       </div>
 
                       <div className="carousel-caption">
@@ -122,7 +123,7 @@ export default function Home() {
 
                     <div className="carousel-item">
                       <div className="carousel-image-wrap">
-                        <img src="images/slide/ivan-torres-MQUqbmszGGM-unsplash.webp" className="img-fluid carousel-image" alt="" />
+                        <Image src="/images/slide/ivan-torres-MQUqbmszGGM-unsplash.webp" className="img-fluid carousel-image" alt="" width={1168} height={778} />
                       </div>
 
                       <div className="carousel-caption">
@@ -183,7 +184,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Breakfast</span>
                   </div>
@@ -213,7 +214,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Lunch</span>
                   </div>
@@ -243,7 +244,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/dinner/keriliwi-c3mFafsFz2w-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Dinner</span>
                   </div>
@@ -275,7 +276,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Dinner</span>
                   </div>
@@ -307,7 +308,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Breakfast</span>
                   </div>
@@ -337,7 +338,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="menu-thumb">
                   <div className="menu-image-wrap">
-                    <img src="images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.webp" className="img-fluid menu-image" alt="" />
+                    <Image src="/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.webp" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                     <span className="menu-tag bg-warning">Lunch</span>
                   </div>
@@ -379,7 +380,7 @@ export default function Home() {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="news-thumb mb-4">
                   <a href="news-detail.html">
-                    <img src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.webp" className="img-fluid news-image" alt="" />
+                    <Image src="/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
                   </a>
 
                   <div className="news-text-info news-text-info-large">
@@ -395,7 +396,7 @@ export default function Home() {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="news-thumb mb-4">
                   <a href="news-detail.html">
-                    <img src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.webp" className="img-fluid news-image" alt="" />
+                    <Image src="/images/news/stefan-johnson-xIFbDeGcy44-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
                   </a>
 
                   <div className="news-text-info news-text-info-large">
@@ -411,7 +412,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-4 col-12">
                 <div className="news-thumb mb-lg-0 mb-lg-4 mb-0">
                   <a href="news-detail.html">
-                    <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.webp" className="img-fluid news-image" alt="" />
+                    <Image src="/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
                   </a>
 
                   <div className="news-text-info">
@@ -429,7 +430,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-4 col-12">
                 <div className="news-thumb mb-lg-0 mb-lg-4 mb-2">
                   <a href="news-detail.html">
-                    <img src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.webp" className="img-fluid news-image" alt="" />
+                    <Image src="/images/news/caroline-attwood-bpPTlXWTOvg-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
                   </a>
 
                   <div className="news-text-info">
@@ -445,7 +446,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="news-thumb mb-4">
                   <a href="news-detail.html">
-                    <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.webp" className="img-fluid news-image" alt="" />
+                    <Image src="/images/news/louis-hansel-GiIiRV0FjwU-unsplash.webp" className="img-fluid news-image" alt="" width={640} height={427} />
                   </a>
 
                   <div className="news-text-info">
