@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Skeleton } from "@nextui-org/react";
-import List from 'react-virtualized/dist/commonjs/List';
+import { List } from 'react-virtualized';
 
 function timeout(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
