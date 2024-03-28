@@ -6,6 +6,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
 */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
